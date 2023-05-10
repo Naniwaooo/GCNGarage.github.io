@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF8">
+	<meta http-eqquiv="X-UA-Compatible" content"IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/style.css">
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+	<title>Registration Form</title>
+</head>
+<body>
+	<section class="header" id="top">
+		<nav>
+			<a href="index.html"><img src="../src/logo.png" height="100"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-car" onclick="hideMenu()"></i>
+					<ul>
+					<li><a href="../Index.html">Home</a></li>
+					<li><a href="Registration.html">Registration page</a></li>
+					<li><a href="Garage.html">Visit our garage</a></li>
+					<li><a href="Reference.html">References</a></li>
+				</ul>
+			</div>
+		</nav>
+	<!--container start-->
+    <form action="confirmation.html">
+        <h3>Registration</h3>
+
+        <label for="username">You have successfully created an account.</label>
+		 <p style="color: white"><a href="../Index.html"> <b><u>Go to Home</u></b></a></p>
+        <div class="social">
+          <div class="go"><i class="fab fa-google"></i>  Google</div>
+          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+    </form>
+		<!--form wrap close-->
+	</div>
+	</section>
+	<footer>
+	<p>Our love for classic bikes began many years ago when we discovered the beauty and craftsmanship of vintage bicycles. We were fascinated by the timeless designs, the attention to detail, and the durability of these machines. We also recognized the importance of preserving these bikes and their history for future generations to enjoy.
+
+With our expertise in cycling and mechanical engineering, we set out to create a workshop dedicated to restoring and maintaining classic bicycles. We established GCN Classic Bike Garage as a hub for enthusiasts to bring their bikes for restoration, repairs, and maintenance.</p>
+	<br>
+	<p>&copy All Rights Resereved. Developed by Gian Naniong</p>
+	</footer>
+</body>
+</html>
